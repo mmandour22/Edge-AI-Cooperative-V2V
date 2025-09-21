@@ -23,15 +23,6 @@ FastLane is organized into five functional layers:
 
 ---
 
-## ⚙️ Installation
-```bash
-# clone the repository
-git clone https://github.com/mmandour22/Edge_AI_Based_Cooperative_V2V_Communication_System_V2.git
-cd Edge_AI_Based_Cooperative_V2V_Communication_System_V2
-
-# install dependencies
-pip install -r requirements.txt
-
 ## 🚀 Usage
 - **Training:** Run the Jupyter notebook for YOLOv8 or Deformable DETR training on BDD100K.  
 - **Evaluation:** Evaluate trained models using standardized COCO-format metrics.  
@@ -59,4 +50,14 @@ pip install -r requirements.txt
 
 ## 🎯 Goal
 FastLane bridges the gap between **academic AI benchmarking** and **deployment-ready V2V systems**, paving the way for safer, smarter, and more cooperative intelligent transportation networks.  
+
+
+## ⚙️ Installation
+```bash
+# clone the repository
+git clone https://github.com/mmandour22/Edge_AI_Based_Cooperative_V2V_Communication_System_V2.git
+cd Edge_AI_Based_Cooperative_V2V_Communication_System_V2
+
+# install dependencies
+pip install -r requirements.txt
 
