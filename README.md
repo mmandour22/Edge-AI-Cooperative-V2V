@@ -31,3 +31,32 @@ cd Edge_AI_Based_Cooperative_V2V_Communication_System_V2
 
 # install dependencies
 pip install -r requirements.txt
+
+## 🚀 Usage
+- **Training:** Run the Jupyter notebook for YOLOv8 or Deformable DETR training on BDD100K.  
+- **Evaluation:** Evaluate trained models using standardized COCO-format metrics.  
+- **Simulation:** Export trained models for CARLA and SUMO cooperative V2V integration.  
+
+---
+
+## 📊 Results (Sample)
+**YOLOv8-nano on BDD100K (Validation Set):**
+- Precision: ~0.30  
+- Recall: ~0.20  
+- mAP@0.5: ~0.17  
+- mAP@0.5–0.95: ~0.09  
+
+*(Additional results for YOLOv8-large and Deformable DETR coming soon.)*  
+
+---
+
+## 🔮 Roadmap
+- Integrate models into **CARLA–SUMO co-simulation**.  
+- Test cooperative hazard messaging and routing strategies.  
+- Optimize for **NVIDIA Jetson** edge deployment.  
+
+---
+
+## 🎯 Goal
+FastLane bridges the gap between **academic AI benchmarking** and **deployment-ready V2V systems**, paving the way for safer, smarter, and more cooperative intelligent transportation networks.  
+
